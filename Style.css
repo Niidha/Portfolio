@@ -1,0 +1,353 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0;
+    font-family: sans-serif;
+}
+.navbar{
+    position: sticky 10px;
+}
+body {
+    background-image: url();
+    background-size: cover;
+    background-color: black;
+}
+.navbar{
+    width: 100%;
+    height: 100px;
+    padding-left: 0px;
+    padding-right: 100px; 
+    display: flex;
+    justify-content: space-between;
+    color: #eff4fd;
+ 
+    position:sticky;
+    top: 0;
+    background-color: #333;
+    color: white;
+    z-index: 1000;
+    
+}
+.my-name{
+    width: 20%;
+    height: 100%;
+    font-size: 30px;
+    font-weight: bold;
+    color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+    
+}
+
+.navbar-items{
+    width: 40%;
+    height: 100%;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.navbar-items a{
+    text-decoration: none;
+    color:white;
+}
+.navbar-items a:hover{
+    color: orange;
+}
+.main-container{
+position: relative;
+width: 100%;
+height: 100vh;
+background: black;
+}
+
+#home{
+    margin-left: 8%;
+    margin-top: 7%;
+    display: flex;
+    
+   
+}
+#home h1{
+    font-size: 50px;
+    color: white;
+    margin-bottom: 20px;
+}
+span{
+    color: orange;
+}
+#home p{
+    color: white;
+    line-height: 22px;
+}
+.one a{
+    background: orange;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #eff4fd;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+
+.home-left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.home-left i{
+    font-size: 40px;
+    color:orange;
+    
+    
+}
+.home-right{
+    width: 50%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.social-media{
+    width: 45%;
+    height: 75px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.social-media a{
+    text-decoration: none;
+    
+}
+.icon-container{
+    width: 60px;
+    height: 60px;
+    border: 3px solid or;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 1s;
+}
+.contact-btn{
+    width: 150px;
+    height: 45px;
+    background-color: orange;
+    border-radius: 25px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 1s;
+}
+#about{
+    /* padding-top: 100px;  */
+    /* margin-top: -100px; */
+    width: 100%;
+    height: 100vh;
+    background-color:#001005;
+    display: flex;
+}
+.about-left{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-right{
+    width: 50%;
+    padding-right: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about-head{
+    font-size: 65px;
+    font-weight: bolder;
+    color: white;
+}
+.about-para{
+    font-size: 20px;
+    color: white;
+}
+#skill{
+    /* padding-top: 100px; 
+    margin-top: -100px; */
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.skill-head{
+    font-size: 65px;
+    font-weight: bolder;
+    color: white;
+}
+.skill-container{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.skill-sub{
+    height: 100%;
+    width: 30%;
+    background-color: orange;
+    border-radius: 50px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.skill-sub i{
+    font-size: 100px;
+}
+.skill-para{
+    font-size: 20px;
+}
+.skill-icon-head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#project{
+    /* padding-top: 100px; 
+    margin-top: -100px; */
+    width: 100%;
+    height: 100vh;
+    background-color: #001005;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.project-head{
+    font-size: 65px;
+    font-weight: bolder;
+    color: white;
+}
+
+.project-container{
+    width: 80%;
+    height: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.project-sub{
+    height: 75%;
+    width: 30%;
+    background-color: orange;
+    border: rgb(242, 183, 72);
+    border-radius: 50px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.project-sub-one{
+    background-image: url(health.jpg);
+    background-size: cover;
+}
+.project-sub-two{
+    background-image: url(aims.png);
+    background-size: cover;
+}
+.project-sub-three{
+    background-image: url(loan.png);
+    background-size: cover;
+}
+
+.project-sub a{
+    font-size: 30px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: black;
+}
+
+#contact{
+    /* padding-top: 100px; 
+    margin-top: -100px; */
+    width: 100%;
+    height: 100vh;
+    background-color: #080808;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.contact-head{
+    font-size: 65px;
+    font-weight: bolder;
+    color: white;
+}
+.contact-form{
+    width: 50%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.contact-input{
+    width: 90%;
+    height: 15%;
+    padding-left: 20px;
+    border-radius: 30px;
+    border: 5px solid orange;
+}
+#message{
+    width: 90%;
+    height: 35%;
+    border-radius: 30px;
+    border: 5px solid orange;
+    outline: none;
+}
+#send{
+    width: 200px;
+    height: 45px;
+    background-color: orange;
+    border-radius: 25px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 1s;
+}
+
+.contact-btn:hover{
+    transform: scale(1.2);
+}
+.icon-container:hover{
+    background-color: orange;
+    transform: scale(1.2);
+}
+.icon-container i:hover{
+    color: white;
+}
+.contact-form input::placeholder{
+    font-size: 20px;
+}
+#send:hover{
+    transform: scale(1.2);
+}
